@@ -3,12 +3,51 @@
     height:600px;
     background-color:rgb(255,0,0);
 }
+h1{
+    color:blueviolet;
+    text-align: center;
+}
+h2{
+    color:brown;
+    text-align: center;
+}
+body{
+background-image: url(bg.jpg);
+padding: 20px;
+}
 .myanmar{
-    color:red;
+    color:brown;
     width: 500px;
-    height:500px;
-    background-color: aqua;
+    height:700px;
+    background-color: rgb(165, 142, 49);
+    border-radius: 10%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .form{
-   padding:0%; 
+   padding:0%;
+   align-content: center; 
+   margin: 0px auto;
+
+   
+}
+label{
+    display:block;
+    margin:0 auto;
+    text-align: center;
+}
+input{
+    display: block;
+    text-align: center;
+    margin:0 auto;
+    width:80%;
+    height: 2rem;
+    
+}
+
+.hearder{
+    text-align: center;
+}
+.form-group{
+    margin:0 auto;
 }

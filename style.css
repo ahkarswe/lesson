@@ -1,0 +1,9 @@
+body{
+    background-image: url(bg.jpg);
+}
+.container{
+    color: brown;
+}
+h1{
+    text-align: center;
+}

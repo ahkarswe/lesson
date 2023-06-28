@@ -4,14 +4,32 @@
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>servey form</title>
 </head>
 <body>
+    <div class="hearder">
+        <p class="title"> <h1>MINDGNITE</h1>
+                   </p>
+    </div>
     <div class="myanmar">
+        <h2>Servey Form</h2>
 <form>
-    <label>
-        
+    <div class="form-group">
+    <label for="name"> Name:
+      <input class="name" type="text" placeholder="Enter Your Name" required /> 
     </label>
+</div>
+<div class="form-group">
+    <label for="email">email:
+        <input name="email" type="email" placeholder="Enter Your email address"/>
+    </label>
+</div>
+<div class="form-group">
+    <label for="age">Your Age:
+        <input name="age" type="number" min="10" max="96" maxlength="2" placeholder="Age"/>
+    </label>
+   
+</div>
 </form>
     </div> 
 </body>
