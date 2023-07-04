@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="sytlesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey Form</title>
@@ -11,11 +11,51 @@
     <p class="thank">Thank your for filling survey form</p>
     <div class="container">
     <div class="form-group">
-        <form>
+        <form> 
+            <h2>Survey form</h2>
+            <fieldset>
             <label for="name"> Name: 
-                <input class="name" type="text" required/>
+                <input class="name" type="text" placeholder="Enter your name" required/>
 
             </label>
+            <label for="email">Email:
+                <input class="email" id="email" type="email" placeholder="Enter your email address" required>
+            </label>
+            <label for="age">age:
+                <input class="age" id="age" type="number" min="16" max="60" placeholder="Enter your age" required>
+            </label>
+        </fieldset>
+            <fieldset>
+            <label for="Job" id="job">type of your job
+                <select class="kind">
+                    <option>
+                        finance
+                    </option>
+                    <option>
+                        admin
+                    </option>
+                    <option>
+                        IT
+                    </option>
+                    <option>
+                        operations
+                    </option>
+                </select>
+            </label>
+        </fieldset>
+                <div class="radio">
+                <fieldset>
+                <p id="radio">Please Select</p>
+                <label for="inline" id="radio"> Male
+                    <input class="inline" type="radio" id="sex" name="sex" >
+                </label>
+                <label for="inline" id="radio"> Female
+                    <input class="inline" type="radio" id="sex" name="sex">
+                </label>
+                </fieldset>
+                <!--To Add Submit Buttom-->
+            </div>
+            
         </form>
     </div>
 </div>

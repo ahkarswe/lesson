@@ -2,8 +2,69 @@ body{
     background-image: url(bg.jpg);
 }
 .container{
-    color: brown;
+    color:rgb(255,255,255);
+    width: 500px;
+    height: 700px;
+    background:radial-gradient(#e66465, #9198e5);
+    border-radius: 5%;
+    margin:0 auto;
+}
+form{
+    text-align: center;
+    margin: 20px auto;
 }
 h1{
     text-align: center;
+    color: rgb(240, 248, 255);
 }
+h2{
+    color:crimson;
+}
+p{
+    color:rgb(216, 174, 174);
+    text-align: center;
+}
+.from-group{
+    display:block;
+    text-align: center;
+}
+label{
+    display:block;
+    text-align: center;
+    margin:auto;
+    padding:20px;
+    height:2rem;
+}
+input{
+    display:block;
+    margin: 0 auto;
+    width: 400px;
+    height:30px;
+}
+.inline {
+    display:inline;
+    width:unset;    
+    vertical-align: middle;  
+  }
+  select{
+    display:block;
+    width: 300px;
+    margin: auto;
+  }
+  label[id="job"]{
+    text-align: center;
+    margin: auto;
+  }
+  label[id="radio"]{
+    display:inline;  
+  }
+  p[id="radio"] {
+text-align:center;
+color: aliceblue;
+  }
+  fieldset{
+    padding: 2dvh;
+    border-radius: 10%;
+    border-bottom: 2cap;
+  }
+ 
